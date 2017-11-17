@@ -25,11 +25,11 @@ public int compareTo(IndexEntry other) {
 }
 public String toString() {
 	String output = gloWord + " ";	
-	for (Integer entry : lines) {	//For each int in the numSet which contains lnNums
-		if(entry == lines.last() )	//If it's the last one, don't add a comma
-			output += entry.toString(); //Only adds the line where the number appears "foo	4, 5"
+	for (Integer entry : lines) {
+		if(entry == lines.last() )
+			output += entry.toString();
 		else 
-			output += entry.toString() + ", ";	//Adds the line where the number appears AND a comma
+			output += entry.toString() + ", ";	
 	}
 	return output;
 }
