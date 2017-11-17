@@ -1,0 +1,44 @@
+==================DocumentIndex==================
+
+Standard New Document
+
+
+expected result blank line ^
+
+Adding in 1 word 
+
+Adding in all other words 
+=========================== Index offish.txt ===========================
+
+A 10, 11, 12
+ARE 13
+BLACK 5
+BLUE 4, 6
+CAR 11
+FISH 2, 3, 4, 5, 6, 7, 8, 13
+HAS 9, 11
+LITTLE 10, 11
+LOT 12
+NEW 8
+OF 13
+OLD 7
+ONE 9, 11
+ONE FISH 1
+RED 3
+SAY 12
+STAR 10
+THERE 13
+THIS 9, 11
+TWO 2
+WHAT 12
+
+
+
+========================================================================
+
+==================IndexEntry==================
+
+Standard New Entry
+fish 
+expected result 'fish' ^
+fish -9, 9, 10, 11, 45, 19302
