@@ -1,5 +1,5 @@
 /**
-*This program allows a user to crearte an index of data entrys and export them as a text document
+*This program allows a user to create an index of data entrys and export them as a text document
 *
 *
 * @author WinstanleyA
@@ -60,6 +60,12 @@ public class IndexMain {
 				System.out.println("output: " );
 				file2 = keyboard.nextLine();
 				keyboard.close();
+				if(file1.equals("")&&file2.equals("")) {
+					file1 = "fish.txt";
+					file2 = "output.txt";
+					System.out.println("an input and output have been made for you" );
+				}
+					
 			}
 			else {
 			    file1 = args[0];
@@ -98,7 +104,7 @@ public class IndexMain {
 				testDoc1.addAllWords(input.nextLine(), index);
 				index++;
 			}
-			output.println("=========================== Index of" + file1 + " ===========================");
+			output.println("=========================== Index of " + file1 + " ===========================");
 			output.println();
 			output.print(testDoc1);
 			System.out.println(testDoc1); //works in terminal but not in output file??
@@ -124,10 +130,7 @@ public class IndexMain {
 			input.close();
 			output.close();
 			}
-			
-			
-			
-		
+	
 }
 
 

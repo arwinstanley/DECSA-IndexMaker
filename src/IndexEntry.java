@@ -8,7 +8,7 @@ import java.util.*;
 public class IndexEntry implements Comparable<IndexEntry>   {
 	private TreeSet<Integer> lines;
 	private String gloWord; //It was 'birdUp' but I was told this is unproffesional
-        /**
+    /**
 	 * 
 	 * One parameter constructor that takes in a String word, which is then indexed as many times as it exists
 	 * 
@@ -28,7 +28,7 @@ public void add(int num) {
 	if (!(lines.contains(num)))
 				lines.add(num);
 }
-        /**
+    /**
 	 * 
 	 * Returns the indexing 
 	 * 
@@ -37,21 +37,23 @@ public void add(int num) {
 public String getWord() {
 	return gloWord;
 }
-        /**
+    /**
 	 * 
 	 * returns an int that shows the differences between two IndexEntrys
 	 * 
 	 * @param other is a seconfd instance of IndexEntry to compare to another
+	 * @return an int representation of the difference in obj1 and obj2
 	 */
 	@Override
 public int compareTo(IndexEntry other) {
 	return this.gloWord.compareTo(other.getWord());
 }
-	        /**
+	/**
 	 * 
 	 * returns an String that shows what the object is
 	 * 
 	 * @param none
+	 * @return a String representation of the object
 	 */
 public String toString() {
 	String output = gloWord + " ";	
