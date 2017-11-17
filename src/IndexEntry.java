@@ -1,3 +1,9 @@
+/**
+*This class is used to store an Index Entry which is a TreeSet of integers and a String for the word
+*
+*@author Alex Winstanely
+*@date 11/17/17
+*/
 import java.util.*;
 public class IndexEntry implements Comparable<IndexEntry>   {
 	private TreeSet<Integer> lines;
