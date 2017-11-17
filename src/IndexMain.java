@@ -1,9 +1,16 @@
+/**
+*This program allows a user to crearte an index of data entrys and export them as a text document
+*
+*
+* @author WinstanleyA
+* @Date 11/17/17
+*/
 import java.io.*;
 import java.util.Scanner;
 public class IndexMain {
-	/* 
+	/**
 	 * @author WinstanleyA
-	 * @Date 9/26/17
+	 * @Date 11/17/17
 	 * @param fNme the name of the file your writing to
 	 * @return input a PrintWriter which will be able to write to the file given in fNme
 	 */
@@ -18,9 +25,9 @@ public class IndexMain {
 		}
 		return input;
 	}
-	/* 
+	/**
 	 * @author WinstanleyA
-	 * @Date 9/26/17
+	 * @Date 11/17/17
 	 * @param fNme the name of the file you wish to read
 	 * @return input a Scanner to read the file you gave as input
 	 */
@@ -35,9 +42,9 @@ public class IndexMain {
 		return input;
 	}
 
-		/* 
+		/**
 		 * @author WinstanleyA
-		 * @Date 9/26/17
+		 * @Date 11/17/17
 		 * @param args is the names of all the files you want to use in this program
 		 */
 		public static void main(String[] args) {
